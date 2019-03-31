@@ -1,0 +1,161 @@
+/* This resets any default margin and padding CSS from all browsers and sets box sizing to border box for all elements */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    background-image: url('../images/background.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 640px;
+}
+
+.title {
+    background-image: url('../images/title.png');
+    background-color: #b22234;
+    background-position: center;
+    height: 100%;
+    min-height: 640px;
+    width: 27px;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid black;
+    position: relative;
+    left: 30px;
+}
+
+.main {
+    border: 1px solid black;
+    position: absolute;
+    top: 30px;
+    left: 350px;
+    display: grid;
+    grid-gap: 1px;
+    width: 600px;
+    height: 600px;
+}
+
+.main > div {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.menu {
+    position: absolute;
+    top: 30px;
+    left: 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    font-size: 24px;
+    font-family: Arial;
+    padding: 10px;
+    background-color: rgb(19, 53, 104);
+    border: 2px solid #b22234;
+    color: white;
+    width: 150px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.sizeButton{
+    visibility: hidden;
+}
+
+.palette {
+    height: 480px;
+    width: 30px;
+    max-height: 480px;
+    max-width: 30px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 30px;
+    left: 980px;
+    border: 1px solid black;
+}
+
+.color {
+    width: 30px;
+    height: 30px;
+}
+
+#black {
+    background-color: black;
+}
+
+#grey {
+    background-color: grey;
+}
+
+#maroon {
+    background-color: maroon;
+}
+
+#red {
+    background-color: red;
+}
+
+#green {
+    background-color: green;
+}
+
+#lime {
+    background-color: lime;
+}
+
+#olive {
+    background-color: olive;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#navy {
+    background-color: navy;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#purple {
+    background-color: purple;
+}
+
+#fuchsia {
+    background-color: fuchsia;
+}
+
+#teal {
+    background-color: teal;
+}
+
+#aqua {
+    background-color: aqua;
+}
+
+#silver {
+    background-color: silver;
+}
+
+#white {
+    background-color: white;
+}
